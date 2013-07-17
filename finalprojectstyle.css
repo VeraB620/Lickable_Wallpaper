@@ -1,0 +1,185 @@
+/*General*/
+
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #CCEAEE;
+}
+
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a{
+	position: fixed;
+	background-color: transparent;
+	bottom: 10px;
+	height: 50px;
+	width: 50px;
+	left: 50%;
+	z-index: 1;
+	font-family: 'Ribeye Marrow', cursive;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+/*Top of the Page*/
+
+.top {
+	display: block;
+	background-image: url("http://cdn.new-startups.com/wp-content/uploads/lickable-wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 615px;
+	width: 100%;
+	height: 615px;
+	position: relative;
+	transition: background-image 1s ease-in;
+	-webkit-transition: background-image 1s ease-in;
+}
+
+.top:hover {
+	display: block;
+	background-image: url("http://yourdailyweb.com/wp-content/uploads/2013/03/lickable-wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 700px;
+	width: 100%;
+	height: 615px;
+	position: relative;
+}
+
+.productname {
+  	-webkit-transform: rotate(270deg);
+	-webkit-transform-origin: 15% 50%;
+	position: absolute;
+	bottom: 25px;
+	left: -50px;
+    color: white;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 110px;
+    background: transparent;
+   }
+
+h1 {
+	background-color: transparent;
+	font-family: 'Cherry Swash', cursive;
+	font-size: 50px;
+	position: absolute;
+	top: 100px;
+	left: 130px;
+	color: #F5859D;
+}
+
+h2 {
+	background-color: transparent;
+	font-family: 'Expletus Sans', cursive;
+	font-size: 60px;
+	position: absolute;
+	top: 150px;
+	left: 130px;
+}
+
+button{
+	position: absolute;
+	background-color: white;
+	color: #F5859D;
+	font-size: 20px;
+	top: 220px;
+	left: 135px;
+	height: 30px;
+	width: 100px;
+	transition: color .4s ease-in;
+	-webkit-transition: color .4s ease-in;
+}
+
+button:hover {
+	color: #CCEAEE;
+}
+
+/*description*/
+
+.description {
+	text-align: center;
+	background-color: gray;
+	width: 100%;
+	height: 200px;
+}
+
+
+/*Product 1: Fruit*/
+
+.product1background {
+	width: auto;
+	height: 400px;
+	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFORA41YoEhJHRGg4v4muP2oOeG1Zhcxvw0Gq-BC2bA0dIfVVX");
+	background-repeat: repeat;
+	background-size: auto 200px;
+	opacity: .3;
+	background-attachment: fixed;
+}
+
+.product1 {
+	position: absolute;
+	font-family: 'Expletus Sans', cursive;
+	font-size: 70px;
+	background: transparent;
+
+}
+
+/*Product 2: */
+
+.product2 {
+	width: auto;
+	height: 200px;
+	background-color: blue;
+}
+
+/*Product 3: Sweets */
+
+.sweetsbackground {
+	width: auto;
+	height: 400px;
+	background-image: url("http://us.123rf.com/400wm/400/400/notkoo2008/notkoo20081101/notkoo2008110100083/8545634-cartoon-candy-icon.jpg");
+	background-size: auto 200px;
+	opacity: .3;
+	background-attachment: fixed;
+}
+
+.sweets {
+	position: absolute;
+	font-family: 'Expletus Sans', cursive;
+	font-size: 70px;
+	background: transparent;
+}
+
+.sweetsdescription {
+	position: absolute;
+	font-family: 'Expletus Sans', cursive;
+	font-size: 50px;
+	background: transparent;
+}
+
+
+/*Footer*/
+
+.footer p {
+	color: white;
+	font-family: 'Cherry Swash', cursive;
+	font-size: 40px;
+	color: #F5859D;
+}
+
+.footer em {
+	font-size: 30px;
+}
