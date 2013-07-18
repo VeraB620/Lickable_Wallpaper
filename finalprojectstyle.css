@@ -41,9 +41,9 @@ a:hover {
 	display: block;
 	background-image: url("http://cdn.new-startups.com/wp-content/uploads/lickable-wallpaper.jpg");
 	background-repeat: no-repeat;
-	background-size: auto 615px;
+	background-size: auto 650px;
 	width: 100%;
-	height: 615px;
+	height: 650px;
 	position: relative;
 	transition: background-image 1s ease-in;
 	-webkit-transition: background-image 1s ease-in;
@@ -55,7 +55,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: auto 700px;
 	width: 100%;
-	height: 615px;
+	height: 650px;
 	position: relative;
 }
 
@@ -63,7 +63,7 @@ a:hover {
   	-webkit-transform: rotate(270deg);
 	-webkit-transform-origin: 15% 50%;
 	position: absolute;
-	bottom: 25px;
+	bottom: 40px;
 	left: -50px;
     color: white;
     font-family: 'Ribeye Marrow', cursive;
