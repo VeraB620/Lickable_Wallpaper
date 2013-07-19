@@ -39,6 +39,17 @@ a:hover {
 	color: white;
 }
 
+button{
+	position: absolute;
+	background-color: white;
+	color: #F5859D;
+	font-size: 20px;
+	height: 30px;
+	width: 100px;
+	transition: color .4s ease-in;
+	-webkit-transition: color .4s ease-in;
+}
+
 /*Top of the Page*/
 
 .top {
@@ -49,8 +60,8 @@ a:hover {
 	width: 100%;
 	height: 650px;
 	position: relative;
-	transition: background-image 1s ease-in;
-	-webkit-transition: background-image 1s ease-in;
+	transition: background-image 2s ease-in;
+	-webkit-transition: background-image 2s ease-in;
 }
 
 .top:hover {
@@ -94,17 +105,9 @@ h2 {
 	left: 130px;
 }
 
-button{
-	position: absolute;
-	background-color: white;
-	color: #F5859D;
-	font-size: 20px;
+.slogan button{
 	top: 220px;
 	left: 135px;
-	height: 30px;
-	width: 100px;
-	transition: color .4s ease-in;
-	-webkit-transition: color .4s ease-in;
 }
 
 button:hover {
@@ -124,14 +127,14 @@ button:hover {
 
 .fruitbackground, .sweetsbackground {
 	width: auto;
-	height: 400px;
+	height: 600px;
 	background-repeat: repeat;
 	background-size: auto 200px;
 	opacity: .3;
 	background-attachment: fixed;
 }
 
-/*Product 1: Fruit*/
+/*Fruit*/
 
 .fruitbackground {
 	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFORA41YoEhJHRGg4v4muP2oOeG1Zhcxvw0Gq-BC2bA0dIfVVX");
@@ -145,15 +148,35 @@ button:hover {
 	z-index: 2;
 }
 
-/*Product 2: */
-
-.product2 {
-	width: auto;
-	height: 200px;
-	background-color: blue;
+.fruitdescription {
+	font-family: 'Expletus Sans', cursive;
+	font-size: 20px;
+	margin-top: -20px;
+	display: block;
+	background: transparent;
 }
 
-/*Product 3: Sweets */
+.fruitphoto1 img{
+	padding-top: 50px;
+	padding-left: 30px;
+	height: 200px;
+}
+
+
+/*Block */
+
+.block {
+	text-align: center;
+	background-color: #CCEAEE;
+	opacity: 1;
+	height: 100px;
+	color: #F5859D;
+	font-family: 'Cherry Swash', cursive;
+	font-size: 20px;
+	padding-top: 70px;
+}
+
+/*Sweets */
 
 .sweetsbackground {
 	background-image: url("http://us.123rf.com/400wm/400/400/notkoo2008/notkoo20081101/notkoo2008110100083/8545634-cartoon-candy-icon.jpg");
@@ -175,6 +198,42 @@ button:hover {
 	background: transparent;
 }
 
+.sweetphoto img {
+	height: 500px;
+	padding-left: 30px;
+}
+
+.lollypops, .cookie, .icecream, .cake {
+	font-size: 20px;
+	margin-left: 230px;
+	width: 400px;
+	font-family: 'Armata', sans-serif;
+}
+
+.lollypops em:hover, .cookie em:hover, .icecream em:hover, .cake em:hover {
+	color: #F5859D 
+}
+
+.lollypops {
+	margin-top: -490px;
+}
+
+.cookie {
+	margin-top: 22px;
+}
+
+.icecream {
+	margin-top: 15px;
+}
+
+.cake {
+	margin-top: 10px;
+}
+
+.sweets button {
+	top: 300px;
+	left: 700px;
+}
 
 /*Footer*/
 
