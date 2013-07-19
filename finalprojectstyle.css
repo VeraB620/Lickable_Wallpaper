@@ -117,10 +117,18 @@ button:hover {
 /*description*/
 
 .description {
+	display: block;
 	text-align: center;
-	background-color: #F5859D;
+	background-color: #CCEAEE;
 	opacity: .4;
-	height: 200px;
+	height: 220px;
+}
+
+.description p {
+	text-align: center;
+	color: #F5859D;
+	font-family: 'Cherry Swash', cursive;
+	font-size: 40px;
 }
 
 /*Backgrounds*/
@@ -133,6 +141,18 @@ button:hover {
 	opacity: .3;
 	background-attachment: fixed;
 }
+
+/*Products*/
+
+.lollypops em:hover, .cookie em:hover, .icecream em:hover, .cake em:hover, .fruitwonka em:hover {
+	color: #F5859D 
+}
+
+.fruit button, .sweets button {
+	top: 550px;
+	left: 700px;
+}
+
 
 /*Fruit*/
 
@@ -156,12 +176,33 @@ button:hover {
 	background: transparent;
 }
 
-.fruitphoto1 img{
-	padding-top: 50px;
+.fruitphoto1 img {
+	margin-top: 20px;
 	padding-left: 30px;
 	height: 200px;
 }
 
+.fruitphoto2 img {
+	margin-top: 40px;
+	padding-left: 30px;
+	height: 200px;
+	width: 380px;
+}
+
+.fruitwonka, .fruitproduct {
+	font-size: 20px;
+	margin-left: 430px;
+	width: 400px;
+	font-family: 'Armata', sans-serif;
+}
+
+.fruitwonka {
+	margin-top: -450px;
+}
+
+.fruitproduct {
+	margin-top: 120px;
+}
 
 /*Block */
 
@@ -210,9 +251,6 @@ button:hover {
 	font-family: 'Armata', sans-serif;
 }
 
-.lollypops em:hover, .cookie em:hover, .icecream em:hover, .cake em:hover {
-	color: #F5859D 
-}
 
 .lollypops {
 	margin-top: -490px;
@@ -230,11 +268,6 @@ button:hover {
 	margin-top: 10px;
 }
 
-.sweets button {
-	top: 300px;
-	left: 700px;
-}
-
 /*Footer*/
 
 .footer p {
@@ -246,4 +279,189 @@ button:hover {
 
 .footer em {
 	font-size: 30px;
+}
+
+/*Responsive Design*/
+
+@media screen and (max-width: 980px) {
+
+	.container {
+    	width: 980px;
+  	}
+
+	.top {
+		background-size: auto 550px;
+		width: 100%;
+		height: 550px;
+	}
+
+	.top:hover {
+ 		background-size: auto 550px;
+		width: 100%;
+		height: 550px;
+	}
+
+	.description {
+		height: 250px;
+	}
+
+	.description p {
+		padding-left: 200px; 
+		font-size: 30px;
+		width: 400px;
+	}
+
+	.fruitphoto1 img {
+		height: 150px;
+	}
+
+	.fruitphoto2 img {
+		width: 280px;
+	}
+
+	.fruitwonka, .fruitproduct {
+		margin-left: 345px;
+		width: 400px;
+	}
+
+	.fruitwonka {
+		margin-top: -430px;
+	}
+
+	.block {
+		height: 30px;
+		font-size: 10px;
+		padding-top: 20px;
+	}
+
+	.footer p {
+		font-size: 20px;
+	}
+
+	.footer em {
+		font-size: 10px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	.container {
+    	width: 320px;
+  	}
+
+	.top {
+		background-size: 320px 320px;
+		width: 100%;
+		height: 460px;
+	}
+
+	.top:hover {
+ 		background-size: 320px 320px;
+		width: 100%;
+		height: 460px;
+	}
+
+	.productname {
+	bottom: 180px;
+	left: -20px;
+    font-size: 50px;
+   	}
+
+	h1 {
+		font-size: 20px;
+		left: 60px;
+	}
+
+	h2 {
+		font-size: 30px;
+		left: 60px;
+	}
+
+	.slogan button{
+		top: 250px;
+		left: 60px;
+	}
+
+	.description {
+		height: 350px;
+	}
+
+	.description p {
+		padding-left: 40px; 
+		font-size: 20px;
+		width: 200px;
+	}
+
+	.fruitbackground {
+		height: 900px;
+		width: 480px;
+	}
+	.sweetsbackground{
+		height: 1200px;
+		width: 480px;
+
+	}
+
+	.fruitdescription {
+	display: none;
+	}
+
+	.fruitphoto1 img {
+	padding-left: 5px;
+	height: 150px;
+	}
+
+	.fruitphoto2 img {
+		padding-left: 5px;
+		height: 200px;
+		width: 280px;
+	}
+
+	.fruitwonka, .fruitproduct {
+		display: block;
+		font-size: 15px;
+		margin-left: 5px;
+		width: 300px;
+		font-family: 'Armata', sans-serif;
+	}
+
+	.fruitwonka {
+		margin-top: 0px;
+	}
+
+	.fruitproduct {
+		margin-top: 120px;
+	}
+	
+
+	.sweetsdescription {
+		display: none;
+	}
+
+	.sweetphoto img {
+		height: 400px;
+		padding-left: 5px;
+	}
+
+	.lollypops, .cookie, .icecream, .cake {
+		font-size: 20px;
+		margin-left: 5px;
+		width: 300px;
+		display: inline-block;
+	}
+
+
+	.lollypops {
+		margin-top: 20px;
+	}
+
+
+	.footer p {
+		font-size: 30px;
+	}
+
+	.footer em {
+		font-size: 20px;
+	}
 }
