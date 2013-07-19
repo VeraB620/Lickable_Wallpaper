@@ -257,21 +257,20 @@ button:hover {
 }
 
 .cookie {
-	margin-top: 22px;
+	margin-top: 40px;
 }
 
 .icecream {
-	margin-top: 15px;
+	margin-top: 40px;
 }
 
 .cake {
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 /*Footer*/
 
 .footer p {
-	color: white;
 	font-family: 'Cherry Swash', cursive;
 	font-size: 40px;
 	color: #F5859D;
@@ -279,6 +278,12 @@ button:hover {
 
 .footer em {
 	font-size: 30px;
+}
+
+.end {
+	font-family: 'Cherry Swash', cursive;
+	font-size: 20px;
+	color: #F5859D;
 }
 
 /*Responsive Design*/
@@ -397,7 +402,11 @@ button:hover {
 		height: 1000px;
 		width: 480px;
 	}
+<<<<<<< HEAD
 	.sweetsbackground {
+=======
+	.sweetsbackground{
+>>>>>>> fixed responsive
 		height: 1500px;
 		width: 480px;
 
@@ -447,7 +456,7 @@ button:hover {
 	.lollypops, .cookie, .icecream, .cake {
 		font-size: 20px;
 		margin-left: 5px;
-		width: 300px;
+		width: 200px;
 		display: inline-block;
 	}
 
@@ -458,7 +467,7 @@ button:hover {
 
 
 	.footer p {
-		font-size: 30px;
+		font-size: 20px;
 	}
 
 	.footer em {
