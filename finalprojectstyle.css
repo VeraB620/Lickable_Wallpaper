@@ -142,6 +142,10 @@ button:hover {
 	background-attachment: fixed;
 }
 
+.sweetsbackground {
+	height: 700px;
+}
+
 /*Products*/
 
 .lollypops em:hover, .cookie em:hover, .icecream em:hover, .cake em:hover, .fruitwonka em:hover {
